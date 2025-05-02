@@ -12,30 +12,25 @@ Interactive User Interface: Built with Streamlit, the app offers an easy-to-use 
 Dynamic Data Processing: Handles both categorical and numerical inputs, including encoding and scaling.
 
 ## Input Features:
-Passenger Class (Pclass)
-
-Sex
-
-Age
-
-Siblings/Spouses Aboard (SibSp)
-
-Parents/Children Aboard (Parch)
-
-Fare
-
-Embarked Port (Embarked)
+. Passenger Class (Pclass)
+. Sex
+. Age
+. Siblings/Spouses Aboard (SibSp)
+. Parents/Children Aboard (Parch)
+. Fare
+. Embarked Port (Embarked)
 
 ## Model:
 The app uses a Logistic Regression model trained on the Titanic dataset from Kaggle, which classifies passengers as either survived or not based on the provided features.
 
 ## Technologies
-Python
+. Python
 
-Streamlit: For creating the interactive web application.
+. Streamlit: For creating the interactive web application.
 
-scikit-learn: For the machine learning model (Logistic Regression).
+. scikit-learn: For the machine learning model (Logistic Regression).
 
-pandas: For data manipulation and preprocessing.
+. pandas: For data manipulation and preprocessing.
 
-MinMaxScaler: For scaling features to ensure model accuracy.
+. MinMaxScaler: For scaling features to ensure model accuracy.
+. Seaborn and Ploty for visualization
