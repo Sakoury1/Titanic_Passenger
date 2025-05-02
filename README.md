@@ -1,8 +1,8 @@
-#Titanic Survival Prediction App
+# Titanic Survival Prediction App
 
 Overview The Titanic Survival Prediction App is an interactive machine learning web application built using Streamlit, designed to predict whether a passenger survived the Titanic disaster based on key passenger details. This app leverages a trained Logistic Regression model and offers a user-friendly interface to input passenger information and obtain real-time predictions.
 
-##Key Features
+## Key Features
 Survival Prediction: Users input passenger details, and the app predicts whether the passenger survived the Titanic disaster.
 
 Real-Time Prediction: The app utilizes a pre-trained Logistic Regression model to deliver immediate predictions.
@@ -11,7 +11,7 @@ Interactive User Interface: Built with Streamlit, the app offers an easy-to-use 
 
 Dynamic Data Processing: Handles both categorical and numerical inputs, including encoding and scaling.
 
-##Input Features:
+## Input Features:
 Passenger Class (Pclass)
 
 Sex
@@ -26,10 +26,10 @@ Fare
 
 Embarked Port (Embarked)
 
-##Model:
+## Model:
 The app uses a Logistic Regression model trained on the Titanic dataset from Kaggle, which classifies passengers as either survived or not based on the provided features.
 
-##Technologies
+## Technologies
 Python
 
 Streamlit: For creating the interactive web application.
